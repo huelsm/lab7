@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lab 7 - Basic JavaScript Event Handling and DOM</title>
+  <link rel="stylesheet" href="style/style.css">
+  <script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+  <h1 class="center">ITMD-361 - Lab 7 - Basic JavaScript Event Handling and DOM</h1>
+  <h2 class="center">Matt Huels</h2>
+  <h3 class="center">mhuels@hawk.iit.edu</h3>
+  <script>
+  function init(){
+//add your javascrip between these two lines of code
+ document.getElementById("entrybutton").addEventListener("click", funtion() 
+ { alert ("Matt Huels: This is a test.");
+ }, 
+ function2() {
+ document.get.ElementById("center").innerHTML = "Matt Huels";
+ }
+ )
+window.addEventListener('load', init);
+</script>
+  <div id="container">
+    <input id="entryinput" type="text" name="textentry" placeholder="Enter a Message">
+    <div id="entrybutton">Alert Me</div>
+    <h2 id="textoutput" class="center">Show results here</h2>
+  </div>
+</body>
+</html>
